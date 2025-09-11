@@ -10,7 +10,7 @@ A comprehensive guide to learning JavaScript, from basics to advanced concepts, 
 
 ## Getting Started
 1. Clone or download this repository.
-2. Open `docs/` for the tutorial content.
+2. Open `01_introduction.md` for the tutorial content.
 3. Run examples in `examples/` using a browser or Node.js.
 4. Explore projects in `projects/` by opening `index.html` files in a browser.
 
