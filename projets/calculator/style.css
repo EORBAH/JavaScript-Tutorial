@@ -1,0 +1,15 @@
+.calculatrice {
+    max-width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+button {
+    width: 60px;
+    height: 40px;
+    margin: 5px;
+}
