@@ -1,0 +1,17 @@
+.grille {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+}
+.carte {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    cursor: pointer;
+}
+.retournee {
+    background: white;
+}
+.trouvee {
+    background: green;
+}
