@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Example</title>
+</head>
+<body>
+    <div id="conteneur">
+        <h1>Mon titre</h1>
+        <p class="texte">Texte initial</p>
+    </div>
+    <script>
+        const titre = document.querySelector("h1");
+        titre.textContent = "Nouveau titre";
+        const paragraphe = document.querySelector(".texte");
+        paragraphe.style.color = "blue";
+    </script>
+</body>
+</html>
