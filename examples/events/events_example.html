@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Events Example</title>
+</head>
+<body>
+    <button id="monBouton">Cliquez-moi</button>
+    <input type="text" id="monInput" placeholder="Entrez du texte">
+    <script>
+        document.getElementById("monBouton").addEventListener("click", () => {
+            alert("Bouton cliqué !");
+        });
+        document.getElementById("monInput").addEventListener("input", (e) => {
+            console.log("Vous avez saisi :", e.target.value);
+        });
+    </script>
+</body>
+</html>
