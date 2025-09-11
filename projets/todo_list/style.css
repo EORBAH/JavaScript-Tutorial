@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#listeTaches {
+    list-style: none;
+    padding: 0;
+}
+#listeTaches li {
+    padding: 5px;
+    cursor: pointer;
+}
+.complete {
+    text-decoration: line-through;
+    color: gray;
+}
